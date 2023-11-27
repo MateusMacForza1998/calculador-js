@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <section>
+        <h1>
+            CALCULADORA JS
+        </h1>
+        <hr>
+        <div class="main">
+            <form action="" name="calculator" method="post">
+
+                <input type="text" class="textcolor"  name="text1" disabled>
+                <input type="button" class="textin" value="C"  name="text2" onclick="location.reload()"><br>
+
+
+                <input type="button" class="num_color" value="7" name="btn7" onclick="display(btn7.value)">
+                <input type="button" class="num_color" value="8" name="btn8" onclick="display(btn8.value)">
+                <input type="button" class="num_color" value="9" name="btn9" onclick="display(btn9.value)">
+                <input type="button" class="num_color" value="+" name="btnadi" onclick="display(btnadi.value)"><br>
+
+                
+
+                <input type="button" class="num_color" value="4" name="btn4" onclick="display(btn4.value)">
+                <input type="button" class="num_color" value="5" name="btn5" onclick="display(btn5.value)">
+                <input type="button" class="num_color" value="6" name="btn6" onclick="display(btn6.value)">
+                <input type="button" class="num_color" value="-" name="btnsub" onclick="display(btnsub.value)"><br>
+
+
+
+                <input type="button" class="num_color" value="1" name="btn1" onclick="display(btn1.value)">
+                <input type="button" class="num_color" value="2" name="btn2" onclick="display(btn2.value)">
+                <input type="button" class="num_color" value="3" name="btn3" onclick="display(btn3.value)">
+                <input type="button" class="num_color" value="*" name="btnmul" onclick="display(btnmul.value)"><br>
+
+
+
+                <input type="button" class="num_color" value="." name="btnp" onclick="display(btnp.value)">
+                <input type="button" class="num_color" value="0" name="btn0" onclick="display(btn0.value)">
+                <input type="button" class="num_color" value="=" name="btnig" onclick="text1.value=eval(text1.value)">
+                <input type="button" class="num_color" value="/" name="btndiv" onclick="display(btndiv.value)"><br>
+
+            </form>
+        </div>
+    </section>
+</body>
+<script src="calculadora.js"></script>
+</html>
